@@ -1,0 +1,16 @@
+
+llm:
+  provider: deepseek
+  model: deepseek-chat
+  temperature: 0.0
+
+experiment:
+  seed: 42
+  chunk_size: 600
+  chunk_overlap: 0
+  context_budget: 800
+  retrieval_topk: 5
+
+paths:
+  datasets: ./datasets
+  outputs: ./outputs
